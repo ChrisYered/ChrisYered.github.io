@@ -1,0 +1,258 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header {
+   padding: 8px;
+}
+#navbar-pinterest {
+    display: flex;
+    gap: 15px;
+    height: 3rem;   
+}
+img {
+    width: 33px;
+}
+.logo-icon{
+    margin: 7px -7px 0px 5px;
+}
+a {
+    text-decoration-line: none;
+}
+.Inicio {
+    display: flex;
+    align-items: center;
+    font-weight: 600;    
+    border: 1px solid black;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.Inicio a{
+    color: white;
+}
+.Menu {
+    display: flex;
+    align-items: center;
+    font-weight: 600;    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.Menu a{
+    color: black;
+}
+.Explorar {
+    margin: 0px 17px 0px 0px;
+}
+.Busqueda {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 39rem;
+    padding: 0px 0px 0px 10px;
+}
+.buscador_icon {
+    position: absolute;
+    padding: 0px 0px 0px 15px;
+    width: 32px;
+}
+input {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #e9e9e9;
+}
+.Notificaciones {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.user-data {
+    display: flex; 
+    gap: 18px;
+}
+.icon {
+    width: 30px;
+}
+.Profile-img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.Profile {
+    display: flex;
+    align-items: center;
+}
+#content {
+    margin: 1rem 0px 0px 4.5rem;
+    width: 60rem;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background-color: aquamarine; */
+}
+.card-image img {
+    width: 100%;
+    border-radius: 26px;
+    display: inherit;
+
+}   
+.card-image {
+    width: 225px;
+    height: fit-content;
+    position: relative;
+    /* background-color: blue; */
+}
+.box-hover {
+    position: absolute;
+    top: 0;
+    background-color: #0b0a0ca8;
+    width: 100%;
+    height: 100%;
+    border-radius: 26px;
+    opacity: 0;
+}
+.mas {
+    position: absolute;
+    left: 176px;
+    top: 23px;
+    padding: 8px;
+    border-radius: 100%;
+    width: 35px;
+}
+.more-options {
+    position: absolute;
+    right: 23px;
+    bottom: 1rem;
+    border-radius: 15px;
+} 
+.share {
+    width: 25px;
+    height: 27px;
+    border-radius: 100%;
+}
+.Options {
+    width: 25px;
+    height: 26px;
+    border-radius: 100%;
+}
+.f5 {
+    position: relative;
+    margin: -96px 0px 0px 0px;
+}
+.f6 {
+    position: relative;
+    margin: -94px 0px 0px 0px;
+}
+.f7 {
+    position: relative;
+    margin: -94px 0px 0px 0px;
+}
+.f9 {
+    position: relative;
+    top: -16.8rem;
+}
+.f10 {
+    margin: -317px 0px 0px 0px;
+}
+.f11 {
+    position: relative;
+    bottom: 16.5rem;
+}
+.f13 {
+    position: relative;
+    top: -19rem;
+}
+.f14 {
+    position: relative;
+    bottom: 26.8rem;
+}
+.f15 {
+    position: relative;
+    bottom: 16.3rem;
+}
+.f16 {
+    position: relative;
+    bottom: 4rem;
+}
+.f17 {
+    position: relative;
+    bottom: 21rem;
+}
+.f18 {
+    position: relative;
+    bottom: 26.3rem;
+}
+.f19 {
+    position: relative;
+    bottom: 16rem;
+}
+.f20 {
+    position: relative;
+    bottom: 6.5rem;
+}
+.f21 {
+    position: relative;
+    bottom: 20.5rem;
+}
+.f22 {
+    position: relative;
+    bottom: 37.5rem;
+}
+.f23 {
+    position: relative;
+    bottom: 18.5rem;
+}
+.f24 {
+    position: relative;
+    bottom: 9.5rem;
+}
+.f25 {
+    position: relative;
+    bottom: 22rem;
+}
+.f26 {
+    position: relative;
+    bottom: 37rem;
+}
+.f27 {
+    position: relative;
+    bottom: 21.5rem;
+}
+.f28 {
+    position: relative;
+    bottom: 13.5rem;
+}
+.f29 {
+    position: relative;
+    bottom: 31.5rem;
+}
+.f30 {
+    position: relative;
+    bottom: 45rem;
+}
+
+@media (max-width: 800px) {
+
+    #content {
+        background-color: black;
+        border-radius: 26px;
+        height: 142.5rem;
+        }
+    
+    #navbar-pinterest {
+            background-color: black;
+            border-radius: 26px;
+        }
+    .Menu a{
+           color: white;
+        }
+    img {
+            border-radius: 100%;
+        }
+    }
